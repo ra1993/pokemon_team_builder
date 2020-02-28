@@ -29,7 +29,6 @@ function App() { // the main component
     }
     getData();
   }
-
   
   useEffect(() => lookupPokemon(), [searchPokemon]);
 
@@ -39,16 +38,11 @@ function App() { // the main component
     setTeam(oldTeam);
   }
 
-
-
-
   return (
     <div className="App">
       <header className="pokeHeader">
         <NavBar />
  
-
-
         <h5>Name</h5>
         <input text="text" 
                onChange={e => setInputPokemon(e.target.value)} 
