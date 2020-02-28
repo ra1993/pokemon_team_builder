@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar{
+  width: 100%;
+  top: 0px;
+  display: block;
+  padding-bottom: 50px;
+  
+  
+  }
+  
+  .pickButton{
+  
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  
+  
+  }
